@@ -1,0 +1,72 @@
+[
+ {
+   "FIELD1": "TreeID",
+   "FIELD2": "WhenReadingRecorded",
+   "FIELD3": "Location",
+   "FIELD4": "EcologicalValue",
+   "FIELD5": "HistoricalSignificance",
+   "FIELD6": "X",
+   "FIELD7": "Y",
+   "FIELD8": "Z"
+ },
+ {
+   "TreeID": "1",
+   "WhenReadingRecorded": "8/10/16",
+   "Location": "Albert Park",
+   "EcologicalValue": "High",
+   "HistoricalSignificance": "9",
+   "X": "-31",
+   "Y": "1.5",
+   "Z": "17"
+ },
+ {
+   "TreeID": "2",
+   "WhenReadingRecorded": "15/10/16",
+   "Location": "Albert Park",
+   "EcologicalValue": "Low",
+   "HistoricalSignificance": "3",
+   "X": "-32",
+   "Y": "0.899999976",
+   "Z": "18"
+ },
+ {
+   "TreeID": "3",
+   "WhenReadingRecorded": "22/10/16",
+   "Location": "Albert Park",
+   "EcologicalValue": "Very High",
+   "HistoricalSignificance": "4",
+   "X": "-31",
+   "Y": "0.5",
+   "Z": "18"
+ },
+ {
+   "TreeID": "4",
+   "WhenReadingRecorded": "29/10/16",
+   "Location": "Albert Park",
+   "EcologicalValue": "High",
+   "HistoricalSignificance": "8",
+   "X": "-31",
+   "Y": "1.1",
+   "Z": "17"
+ },
+ {
+   "TreeID": "11",
+   "FIELD2": "20/10/16",
+   "FIELD3": "Myers Park",
+   "EcologicalValue": "Low",
+   "HistoricalSignificance": "4",
+   "X": "-28",
+   "Y": "1.5",
+   "Z": "18"
+ },
+ {
+   "TreeID": "12",
+   "FIELD2": "27/10/16",
+   "Location": "Myers Park",
+   "EcologicalValue": "Medium",
+   "HistoricalSignificance": "6",
+   "X": "-28.29999924",
+   "Y": "0.899999976",
+   "z": "18"
+ }
+]
