@@ -159,6 +159,7 @@ GameObject:
   - 33: {fileID: 337875219}
   - 65: {fileID: 337875218}
   - 23: {fileID: 337875217}
+  - 114: {fileID: 337875221}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -227,6 +228,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 8
+--- !u!114 &337875221
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 337875216}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecd7d89b1f0db4997a1fa2f38b508722, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startColor: {r: 1, g: 0.20588237, b: 0.6494931, a: 0}
+  mouseOverColor: {r: 0.08088237, g: 0.8478701, b: 1, a: 0}
 --- !u!1001 &373652594
 Prefab:
   m_ObjectHideFlags: 0
@@ -240,7 +254,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5e9e851c0e142814dac026a256ba2ac0, type: 2}
       propertyPath: m_LocalPosition.z
@@ -288,6 +302,7 @@ GameObject:
   - 33: {fileID: 499643401}
   - 65: {fileID: 499643400}
   - 23: {fileID: 499643399}
+  - 114: {fileID: 499643403}
   m_Layer: 0
   m_Name: Cube (1)
   m_TagString: Untagged
@@ -356,6 +371,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 9
+--- !u!114 &499643403
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 499643398}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecd7d89b1f0db4997a1fa2f38b508722, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startColor: {r: 0.84046656, g: 1, b: 0.1102941, a: 0}
+  mouseOverColor: {r: 1, g: 0.41911763, b: 0.41911763, a: 0}
 --- !u!1001 &538609563
 Prefab:
   m_ObjectHideFlags: 0
@@ -473,6 +501,23 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 6
+--- !u!1 &960431353 stripped
+GameObject:
+  m_PrefabParentObject: {fileID: 100000, guid: c91c1eb85782d5748ace27eb4d7415bb, type: 3}
+  m_PrefabInternal: {fileID: 538609563}
+--- !u!114 &960431357
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 960431353}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecd7d89b1f0db4997a1fa2f38b508722, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startColor: {r: 1, g: 1, b: 1, a: 0}
+  mouseOverColor: {r: 0, g: 1, b: 0.91724133, a: 0}
 --- !u!1 &1027276127
 GameObject:
   m_ObjectHideFlags: 0
@@ -484,6 +529,7 @@ GameObject:
   - 33: {fileID: 1027276130}
   - 65: {fileID: 1027276129}
   - 23: {fileID: 1027276128}
+  - 114: {fileID: 1027276132}
   m_Layer: 0
   m_Name: Cube (2)
   m_TagString: Untagged
@@ -552,6 +598,19 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 10
+--- !u!114 &1027276132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1027276127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ecd7d89b1f0db4997a1fa2f38b508722, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startColor: {r: 1, g: 0, b: 0.64137936, a: 0}
+  mouseOverColor: {r: 0.11159169, g: 0.9485294, b: 0.9485294, a: 0}
 --- !u!1001 &1635596296
 Prefab:
   m_ObjectHideFlags: 0
