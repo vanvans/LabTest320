@@ -4,10 +4,11 @@ using System.Collections;
 public class changeColour : MonoBehaviour {
 	public Color startColor;
 	public Color mouseOverColor;
+
 	bool mouseOver = false;
 
 	// Use this for initialization
-	void OnMouseEnter() {
+	void OnMouseDown() {
 		mouseOver = true;
 		GetComponent<Renderer>().material.SetColor ("_Color", mouseOverColor);
 	}
@@ -18,4 +19,8 @@ public class changeColour : MonoBehaviour {
 		GetComponent<Renderer>().material.SetColor ("_Color", startColor);
 	
 	}
+		
+
+
 }
+
